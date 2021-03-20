@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Karan Bhatia</title>
+    <link>http://kabhatia.netlify.app/post/</link>
+    <description>Recent content in Posts on Karan Bhatia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://kabhatia.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>shiny</title>
+      <link>http://kabhatia.netlify.app/post/2021-02-15-shiny/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://kabhatia.netlify.app/post/2021-02-15-shiny/</guid>
+      <description>&amp;lt;iframe src=&amp;#34;https://kabhatia7.shinyapps.io/cal_poly_scraper/&amp;#34; width: 100%; height: 500px;&amp;#34;&amp;gt;&amp;lt;/iframe&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>

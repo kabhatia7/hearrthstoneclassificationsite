@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Karan Bhatia</title>
+    <link>http://kabhatia.netlify.app/</link>
+    <description>Recent content on Karan Bhatia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://kabhatia.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>shiny</title>
+      <link>http://kabhatia.netlify.app/post/2021-02-15-shiny/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://kabhatia.netlify.app/post/2021-02-15-shiny/</guid>
+      <description>&amp;lt;iframe src=&amp;#34;https://kabhatia7.shinyapps.io/cal_poly_scraper/&amp;#34; width: 100%; height: 500px;&amp;#34;&amp;gt;&amp;lt;/iframe&amp;gt; </description>
+    </item>
+    
+    <item>
+      <title>Content Coming Soon</title>
+      <link>http://kabhatia.netlify.app/posts/content-coming-soon/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://kabhatia.netlify.app/posts/content-coming-soon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome to my Blog</title>
+      <link>http://kabhatia.netlify.app/posts/welcome-to-my-blog/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://kabhatia.netlify.app/posts/welcome-to-my-blog/</guid>
+      <description>Hi everyone, my name is Karan Bhatia and I am a Business Quantitative Analysis student at Cal Poly, San Luis Obispo. I am starting this blog to keep myself stimulated and write about the things I like. Feel free to learn more about me on the &amp;ldquo;About&amp;rdquo; tab of this website, and if you&amp;rsquo;re interested in my professional experience or any projects I have completed check out the &amp;ldquo;Resume&amp;rdquo; and &amp;ldquo;Projects&amp;rdquo; tabs.</description>
+    </item>
+    
+    <item>
+      <title>About Karan</title>
+      <link>http://kabhatia.netlify.app/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://kabhatia.netlify.app/about/</guid>
+      <description>My name is Karan Bhatia and I am a Business Quantitative Analysis Student at Cal Poly SLO.
+I am excited by career opportunities in Technology Consulting, Businesses Intelligence, and Data Analytics.
+A few industries I am always itching too learn more about include cybersecurity, financial technology, and gaming.
+Experience:
+ Incoming BI &amp;amp; Analytics Intern @ Palo Alto Networks (2020) Financial Services Advisory Intern @ Ernst &amp;amp; Young LLP (2019) Growth Marketing Analyst @ Mustang Media Group (2019-2020) Double Machine Learning Research Assistant (2020)  I have demonstrated and am continuing to build my experience in statistics and data analytics with the following tools and programming languages:</description>
+    </item>
+    
+    <item>
+      <title>app</title>
+      <link>http://kabhatia.netlify.app/app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://kabhatia.netlify.app/app/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://kabhatia.netlify.app/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://kabhatia.netlify.app/contact/</guid>
+      <description>If you have any inquiries feel free to email me at kabhatia7@gmail.com or connect with me on any of my social media.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://kabhatia.netlify.app/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://kabhatia.netlify.app/projects/</guid>
+      <description>Cal Poly Professor Salary Predictor R Shiny App:
+Uses Cal Poly Professor Salaries from Transparent California to predict how much teachers should be making relative to their colleagues based on their Tenure, Title, and College.
+  Skills Demonstrated: Webscraping, Data Preprocessing, Shiny App Development, Multiple Linear Regression, Bootstrapping, and Data Visualization in R
+Check it out here
+  Machine Learning Time Series GOOGL Stock Predictor:
+Uses 2013-2016 Stock data of Alphabet Stock and sentiment of news articles in the same time frame to predict stock prices using Machine Learning.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://kabhatia.netlify.app/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://kabhatia.netlify.app/resume/</guid>
+      <description>link to resume</description>
+    </item>
+    
+  </channel>
+</rss>

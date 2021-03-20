@@ -1,0 +1,10 @@
+---
+slug: app
+title: "app"
+output: html_document
+---
+
+<iframe height="800" width="100%" frameborder="no" src="https://kabhatia7.shinyapps.io/cal_poly_scraper/"> </iframe>
+
+<br>
+

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/post/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/post/2021-02-15-shiny/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/tags/blog/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/categories/blogdown/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/categories/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/categories/coming/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/categories/content/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/posts/content-coming-soon/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/tags/first/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/categories/first-post/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/tags/post/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/posts/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/categories/r/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/tags/soon/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/categories/soon/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/tags/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/posts/welcome-to-my-blog/</loc>
+    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/app/</loc>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/resume/</loc>
+  </url>
+  
+  <url>
+    <loc>http://kabhatia.netlify.app/series/</loc>
+  </url>
+  
+</urlset>
