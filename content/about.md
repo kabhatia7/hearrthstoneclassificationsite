@@ -1,6 +1,6 @@
 ---
 slug: about
-title: About the project
+title: "About the project"
 ---
 
 
