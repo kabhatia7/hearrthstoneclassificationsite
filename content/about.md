@@ -4,9 +4,7 @@ title: About the project
 ---
 
 
-<iframe height="800" width="120%" frameborder="no" src="https://kabhatia7.shinyapps.io/Classifier//"> </iframe>
 
-<br>
 
 *Background*: 
 
