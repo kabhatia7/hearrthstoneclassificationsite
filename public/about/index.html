@@ -12,11 +12,11 @@
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="About the project"/>
 <meta name="twitter:description" content="Background:
-Hearthstone is a massively popular online collectible card game developed by Blizzard Entertainment. Players select a hero from one of ten classes. All classes have unique cards and abilities, known as hero powers, which help define class archetypes. Each player uses a deck of cards from their collection with the end goal being to reduce the opponent’s health to zero. Blizzard releases expansions of additional cards every four months to increase the variety in the metagame."/>
+Hearthstone is a massively popular online collectible card game developed by Blizzard Entertainment. Players select a hero from one of ten classes. All classes have unique cards and abilities, known as hero powers, which help define class archetypes. Each player uses a deck of cards from their collection with the end goal being to reduce the opponent&rsquo;s health to zero. Blizzard releases expansions of additional cards every four months to increase the variety in the metagame."/>
 
     <meta property="og:title" content="About the project" />
 <meta property="og:description" content="Background:
-Hearthstone is a massively popular online collectible card game developed by Blizzard Entertainment. Players select a hero from one of ten classes. All classes have unique cards and abilities, known as hero powers, which help define class archetypes. Each player uses a deck of cards from their collection with the end goal being to reduce the opponent’s health to zero. Blizzard releases expansions of additional cards every four months to increase the variety in the metagame." />
+Hearthstone is a massively popular online collectible card game developed by Blizzard Entertainment. Players select a hero from one of ten classes. All classes have unique cards and abilities, known as hero powers, which help define class archetypes. Each player uses a deck of cards from their collection with the end goal being to reduce the opponent&rsquo;s health to zero. Blizzard releases expansions of additional cards every four months to increase the variety in the metagame." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/about/" />
 
@@ -98,11 +98,10 @@ Hearthstone is a massively popular online collectible card game developed by Bli
       <h1>About the project</h1>
     </header>
 
-    
-
-
+    <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p><em>Background</em>:</p>
-<p>Hearthstone is a massively popular online collectible card game developed by Blizzard Entertainment. Players select a hero from one of ten classes. All classes have unique cards and abilities, known as hero powers, which help define class archetypes. Each player uses a deck of cards from their collection with the end goal being to reduce the opponent’s health to zero. Blizzard releases expansions of additional cards every four months to increase the variety in the metagame.
+<p>Hearthstone is a massively popular online collectible card game developed by Blizzard Entertainment. Players select a hero from one of ten classes. All classes have unique cards and abilities, known as hero powers, which help define class archetypes. Each player uses a deck of cards from their collection with the end goal being to reduce the opponent&rsquo;s health to zero. Blizzard releases expansions of additional cards every four months to increase the variety in the metagame.
 In my STAT 431 course I developed an R package using the Hearthstone API to pull data quickly and efficiently. That package was very much just a good way to bring data to perform further analysis, however, it did not employ any statistical computation or statistical learning methods. Card games like hearthstone lend themselves very well to classification. Based on x,y, or z factors this card can be a part of a,b, or c classes or because this deck has this combination of cards it is this archetype. This thought is what led me to building my senior project.</p>
 <p><em>Real World Application</em>:</p>
 <p>The game has established a strong esports system and tournament circuit where thousands of players compete every week to try to qualify for the Master’s Tour system which hosts tournaments with hundreds of thousands in prize pools. To qualify players compete in open cups by bringing a lineup with 3 decks. As previously mentioned, there are thousands of competitors per week. So over the course of a month-long qualifying series there are approximately 200,000 decks used. Right now few members of the community have built websites around analysis for these events many of them build manually classify each of the decks based on a few cards and general understanding of the meta decks in order to conduct this analysis. It is very difficult and time consuming whenever there is a meta shift or a new expansion to create these case statements and then having to go through and manually change it throughout the ever shifting meta. So I decided I would attempt to build an application and a statistical model that would allow someone to quickly determine what archetype a deck is just by copying and pasting a deck code taken from the hearthstone client.</p>
@@ -113,9 +112,19 @@ In my STAT 431 course I developed an R package using the Hearthstone API to pull
 Decision Trees
 K-Nearest Neighbors
 At first I thought that I would just use one model to fit all 10 of the classes in hearthstone and in this case the decision tree performed the best having a cross-validated accuracy in the range of 92%-95% depending on the split. However, since there would sometimes the models would classify decks to be in a completely different class, so instead of training the model for all the decks I trained 10 different models (one for each class) using only decks for that particular class and evaluated which tuning parameters/models would work the best from there. We used the R package set tidymodels to do all of our modeling. This allowed us to test and hypertune the models we had set prior. I found based on the hyper tuning that different classes responded better to different tuning parameters and different models. This is caused by the fact that different classes have a lot of overlap in the cards used so it makes more sense to use a method like knn whereas some classes have very clear dillienations between the different archetypes in this case I found decision trees to be the most useful. Below are all the classes with the models used in the application, with all the tuning parameters as well as the cross validated accuracy &amp; std error from my analysis.</p>
-<p><img src="results_tab.png" />
-<em>UI</em>:
-I decided to build my application to display the uses of my model in a shiny app. The application’s main functionality allows the user to input a deck code and it will use the models above to classify what the deck is based on the training data. The second tab displays the real world application taking deck lineups from tournament series’ and classifying the competitors decks and displaying them in a data table. Finally, all of it is displayed on the website you are currently reading this on. Hope you enjoyed learning about card games and enjoy the application!</p>
+<p>|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|<strong><em><strong><strong><strong>|</strong></strong></strong></em>|</strong>_<em><strong><strong><strong>|______________|</strong></strong></strong></em>|
+|Demon Hunter      | Decision Tree   | Depth = 30, Minimum per node = 2, Cost complexity =  01.000000e-10 | 93.3% | 0.001284666 |
+|Druid      | KNN   | K = 7 | 94.4% | 0.0154139 |
+|Hunter      | Decision Tree | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |</p>
 
   </article>
 </section>

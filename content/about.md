@@ -1,8 +1,12 @@
 ---
 slug: about
-title: "About the project"
-output: html_document
+title: About the project
 ---
+
+
+<iframe height="800" width="120%" frameborder="no" src="https://kabhatia7.shinyapps.io/Classifier//"> </iframe>
+
+<br>
 
 *Background*: 
 
@@ -24,7 +28,17 @@ Decision Trees
 K-Nearest Neighbors
 At first I thought that I would just use one model to fit all 10 of the classes in hearthstone and in this case the decision tree performed the best having a cross-validated accuracy in the range of 92%-95% depending on the split. However, since there would sometimes the models would classify decks to be in a completely different class, so instead of training the model for all the decks I trained 10 different models (one for each class) using only decks for that particular class and evaluated which tuning parameters/models would work the best from there. We used the R package set tidymodels to do all of our modeling. This allowed us to test and hypertune the models we had set prior. I found based on the hyper tuning that different classes responded better to different tuning parameters and different models. This is caused by the fact that different classes have a lot of overlap in the cards used so it makes more sense to use a method like knn whereas some classes have very clear dillienations between the different archetypes in this case I found decision trees to be the most useful. Below are all the classes with the models used in the application, with all the tuning parameters as well as the cross validated accuracy & std error from my analysis. 
 
-![](results_tab.png)
-*UI*:
-I decided to build my application to display the uses of my model in a shiny app. The application’s main functionality allows the user to input a deck code and it will use the models above to classify what the deck is based on the training data. The second tab displays the real world application taking deck lineups from tournament series’ and classifying the competitors decks and displaying them in a data table. Finally, all of it is displayed on the website you are currently reading this on. Hope you enjoyed learning about card games and enjoy the application!
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|_________|_______|__________|______________|_______|
+|Demon Hunter      | Decision Tree   | Depth = 30, Minimum per node = 2, Cost complexity =  01.000000e-10 | 93.3% | 0.001284666 |
+|Druid      | KNN   | K = 7 | 94.4% | 0.0154139 |
+|Hunter      | Decision Tree | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
+|Class      | Model   | Parameters | Model Accuracy | Std Err |
 
