@@ -1,47 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Karan Bhatia</title>
-    <link>http://kabhatia.netlify.app/tags/</link>
-    <description>Recent content in Tags on Karan Bhatia</description>
+    <title>Tags on Hearthstone Deck Classification</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Hearthstone Deck Classification</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://kabhatia.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Blog</title>
-      <link>http://kabhatia.netlify.app/tags/blog/</link>
-      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://kabhatia.netlify.app/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>http://kabhatia.netlify.app/tags/first/</link>
-      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://kabhatia.netlify.app/tags/first/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Post</title>
-      <link>http://kabhatia.netlify.app/tags/post/</link>
-      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://kabhatia.netlify.app/tags/post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Soon</title>
-      <link>http://kabhatia.netlify.app/tags/soon/</link>
-      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://kabhatia.netlify.app/tags/soon/</guid>
-      <description></description>
-    </item>
-    
+    <language>en</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
